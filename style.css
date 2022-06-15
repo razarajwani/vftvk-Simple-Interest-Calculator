@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{color:grey;font-family:verdana; line-height: normal;}
+.maindiv {
+    background-color:white;
+    color:black;
+    width:500px;
+    padding:20px 20px;
+    border-radius:25px;
+    text-align:center;
+    line-height: 1.5;
+    
+}
 
+.bgWarning{
+    background-color: yellow;
+}
 
+button{
+    padding: 10px 10px;
+    background-color: #0075ff;
+    border-radius: 5px;
+    color: white;
+    border:none;
+    margin: 10px;
+
+}
+
+#result{
+    text-align: left !important;
+}
+
+footer{
+    margin-top: 30px;
+}
